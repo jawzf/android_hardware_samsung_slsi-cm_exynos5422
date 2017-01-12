@@ -18,6 +18,7 @@ ifeq ($(TARGET_BOARD_PLATFORM), exynos5)
 ifeq ($(TARGET_SLSI_VARIANT), cm)
 ifeq ($(TARGET_SOC), exynos5422)
 exynos5422_dirs := \
+	libcamera \
 	mobicore \
 	gralloc \
 	libdisplaymodule \
